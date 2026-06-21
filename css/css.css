@@ -19,14 +19,12 @@ nav {
     position: fixed;
 }
 
-/* تنسيق الرابط المفعل */
-.navbar-nav .nav-link.active {
-    color: #851ffd !important; /* اللون البنفسجي الخاص بك */
+ .navbar-nav .nav-link.active {
+    color: #851ffd !important;  
     font-weight: bold;
  }
 
-/* لجعل التنقل بين الأقسام ناعماً */
-html {
+ html {
     scroll-behavior: smooth;
 }
 
