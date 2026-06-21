@@ -15,7 +15,10 @@
     #Featured .container{
         width:100%;
     }
-
+    p {
+        color: #4b4b4b !important;
+        font-size: small;
+    }
     .card{
         margin:auto;
     }
@@ -97,8 +100,7 @@
         display: none;
     }
 
-    /* Active / hover state */
-    nav .navbar-nav .nav-link.active,
+     nav .navbar-nav .nav-link.active,
     nav .navbar-nav .nav-link:hover {
         color: #7C3AED !important;
         background: #faf5ff;
